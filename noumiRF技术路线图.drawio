@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="77zzeJfT_YWdCmrIdf-M">
-    <mxGraphModel>
+    <mxGraphModel dx="1873" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="880" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=#1E1A2E;" value="双组岭回归框架（Two-Group Ridge）" vertex="1">
+          <mxGeometry height="36" width="800" x="150" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontColor=#1E1A2E;fontSize=13;arcSize=10;" value="&lt;b&gt;X_macro&lt;/b&gt;&lt;br&gt;宏观时序变量&lt;br&gt;维度：\( T \times p_1 \)" vertex="1">
+          <mxGeometry height="82" width="200" x="80" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontColor=#1E1A2E;fontSize=13;arcSize=10;" value="&lt;b&gt;X_micro&lt;/b&gt;&lt;br&gt;微观截面统计量&lt;br&gt;维度：\( T \times p_2 \)" vertex="1">
+          <mxGeometry height="82" width="200" x="820" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=parallelogram;perimeter=parallelogramPolygon;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#000000;fontSize=12;arcSize=8;" value="&lt;b&gt;RFF₁ — 随机傅里叶特征&lt;/b&gt;&lt;br&gt;\( \Omega_1 \sim N(0, \sigma_1^2 I) \)&lt;br&gt;\( \Phi_1 = [\cos(X\Omega_1), \sin(X\Omega_1)] / \sqrt{m_1} \)&lt;br&gt;输出维度：\( T \times m_1 \)  (\( m_1 \gg p_1 \))" vertex="1">
+          <mxGeometry height="116" width="310" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="shape=parallelogram;perimeter=parallelogramPolygon;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#000000;fontSize=12;arcSize=8;" value="&lt;b&gt;RFF₂ — 随机傅里叶特征&lt;/b&gt;&lt;br&gt;\( \Omega_2 \sim N(0, \sigma_2^2 I) \)&lt;br&gt;\( \Phi_2 = [\cos(X\Omega_2), \sin(X\Omega_2)] / \sqrt{m_2} \)&lt;br&gt;输出维度：\( T \times m_2 \)  (\( m_2 \gg p_2 \))" vertex="1">
+          <mxGeometry height="116" width="310" x="740" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;strokeColor=none;fillColor=#FDF8EC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#8490A8;strokeColor=#d6b656;" value="非线性映射：低维空间中线性不可分&lt;br&gt;的复杂关系，在高维特征空间中可线性表达" vertex="1">
+          <mxGeometry height="78" width="340" x="380" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#000000;fontSize=13;fontStyle=1;arcSize=6;" value="联合特征矩阵   \( \Phi = [\Phi_1 \;|\; \Phi_2] \)&lt;br&gt;总参数量：\( m = m_1 + m_2 \gg T \)  （高维参数化）" vertex="1">
+          <mxGeometry height="62" width="640" x="230" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;arcSize=5;" value="" vertex="1">
+          <mxGeometry height="150" width="860" x="120" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#000000;" value="Two-Group Ridge 目标函数" vertex="1">
+          <mxGeometry height="26" width="380" x="132" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d6b656;fontColor=#1E1A2E;fontSize=16;fontStyle=1;arcSize=6;" value="$$ \min_{\beta_1,\beta_2}  \|y - \Phi_1\beta_1 - \Phi_2\beta_2\|^2  +  \lambda_1\|\beta_1\|^2  +  \lambda_2\|\beta_2\|^2 $$" vertex="1">
+          <mxGeometry height="48" width="800" x="150" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#8490A8;" value="\( \lambda_1 \neq \lambda_2 \) 分别为宏观组、微观组的独立正则化参数，通过交叉验证分别最优化；区别于全局统一惩罚（传统岭回归），有效隔离两组信息源的异质性噪音" vertex="1">
+          <mxGeometry height="50" width="848" x="132" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#000000;fontSize=13;fontStyle=1;arcSize=6;" value="&lt;b&gt;解析解&lt;/b&gt;   \( \hat{\beta} = (\Phi^T\Phi + \Lambda)^{-1} \Phi^Ty \)&lt;br&gt;其中 \( \Lambda = \text{diag}(\lambda_1 I_{m_1}, \lambda_2 I_{m_2}) \) — 分组对角惩罚矩阵" vertex="1">
+          <mxGeometry height="60" width="640" x="230" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontColor=#1E1A2E;fontSize=12;arcSize=8;" value="&lt;b&gt;信息效能分解&lt;/b&gt;&lt;br&gt;\( C_k = p_k / T \)  (复杂度)&lt;br&gt;\( S_k \)            (信号强度)&lt;br&gt;\( E_k = S_k / C_k \)  (效能指数)&lt;br&gt;\( w_k = E_k / \sum E_j \)  (贡献比例)&lt;br&gt;&lt;font color=&#39;#d79b00&#39;&gt;→ 宏观 vs 微观 贡献量化比较&lt;/font&gt;" vertex="1">
+          <mxGeometry height="148" width="310" x="80" y="842" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontColor=#1E1A2E;fontSize=12;arcSize=8;" value="&lt;b&gt;大盘收益预测&lt;/b&gt;&lt;br&gt;\( \hat{y}_{t+1} = \Phi_{new, t+1} \cdot \hat{\beta} \)&lt;br&gt;&lt;br&gt;&lt;b&gt;大盘择时策略&lt;/b&gt;&lt;br&gt;\( \hat{y} &gt; 0 \rightarrow \) 做多风险资产&lt;br&gt;评价：夏普比率 SR、最大回撤 MDD" vertex="1">
+          <mxGeometry height="148" width="310" x="710" y="842" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#6c8ebf;strokeWidth=2;endArrow=block;endFill=1;rounded=0;" target="5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#82b366;strokeWidth=2;endArrow=block;endFill=1;rounded=0;" target="6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d79b00;strokeWidth=2;endArrow=block;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d79b00;strokeWidth=2;endArrow=block;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9673a6;strokeWidth=2.5;endArrow=block;endFill=1;rounded=0;" target="9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" source="9" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;strokeWidth=2.5;endArrow=block;endFill=1;rounded=0;" target="13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="13" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9673a6;strokeWidth=2;endArrow=block;endFill=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="13" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9673a6;strokeWidth=2;endArrow=block;endFill=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
