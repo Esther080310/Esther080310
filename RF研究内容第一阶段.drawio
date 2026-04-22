@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="lG-pbbZv_nSMKpo4M9RB">
+    <mxGraphModel dx="1471" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MacroInput" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="宏观信息源 (Macro)&#xa;DP, DY, EP..." vertex="1">
+          <mxGeometry height="60" width="160" x="100" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MicroInput" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="微观截面摘要 (Micro)&#xa;均值, 方差, 偏度..." vertex="1">
+          <mxGeometry height="60" width="160" x="100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RFF_Macro" parent="1" style="shape=parallelogram;perimeter=parallelogramPolygon;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="RFF 非线性映射&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;(高斯权重 + 周期激活)&lt;br&gt;X_macro → Z_macro&lt;/div&gt;" vertex="1">
+          <mxGeometry height="97.5" width="180" x="320" y="181.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RFF_Micro" parent="1" style="shape=parallelogram;perimeter=parallelogramPolygon;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="RFF 非线性映射&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;(高斯权重 + 周期激活)&lt;br&gt;X_micro → Z_micro&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="320" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ridge_Macro" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="独立收缩参数 λ_macro&#xa;(控制宏观噪音)" vertex="1">
+          <mxGeometry height="60" width="160" x="560" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ridge_Micro" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="独立收缩参数 λ_micro&#xa;(控制微观噪音)" vertex="1">
+          <mxGeometry height="60" width="160" x="560" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Fusion" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" value="高维分组正则化回归&#xa;(Two-Group Ridge)" vertex="1">
+          <mxGeometry height="80" width="160" x="780" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Output" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" value="大盘收益预测&#xa;Y_t+1" vertex="1">
+          <mxGeometry height="60" width="120" x="1000" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge1" edge="1" parent="1" source="MacroInput" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RFF_Macro">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge2" edge="1" parent="1" source="MicroInput" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RFF_Micro">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge3" edge="1" parent="1" source="RFF_Macro" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ridge_Macro">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge4" edge="1" parent="1" source="RFF_Micro" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ridge_Micro">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge5" edge="1" parent="1" source="Ridge_Macro" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fusion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge6" edge="1" parent="1" source="Ridge_Micro" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fusion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge7" edge="1" parent="1" source="Fusion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Output">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
