@@ -2,8 +2,6 @@
 
 ### A Statistic freshman
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Esther080310&label=Profile views&color=0e75b6&style=flat" alt="Esther080310" /> </p>
-
 - 🔭 I'm currently working on **[One-Stop-Resume-Copilot]— An end-to-end AI Agent pipeline for job seekers to automatically tailor resumes and generate mock QnAs based on JDs.**
 
 - 🌱 I'm currently learning **ML,DL,LLM Agent architectures and prompt engineering best practices.**
