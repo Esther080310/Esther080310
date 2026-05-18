@@ -1,67 +1,32 @@
-## Hi there 👋
-Here is my resume for 2024/11/20:
+# Hi 👋, I'm Yan Shen
 
-Education Background                                                                                          
-East China Normal University, Shanghai, China
-School of Economics and Management, Major in Business Administration,Sep 2023-Jun 2024
-School of Statistics, Major in Statistics,Sep 2024-Jun 2028
-GPA: 3.87/4.3 (Average: 89.3/100), Top 5% in major, First-Class Scholarship for Outstanding Students in 2023-2024
-Key Courses: Mathematical Analysis, Advanced Algebra, Computer Programming and Design (Python), Principles of Accounting, Academic English (Advanced Listening, Speaking, Reading, and Writing), Business Management, etc.
+### A Statistic freshman
 
-Professional Experience                                                                                    
-Shanghai Dealman Consulting Co., Ltd. Consulting Intern (Tourism Industry)  		     May 2024 – Sep 2024
-Pricing Analysis: Collected operational data from 100 artificial amusement parks in the Yangtze River Delta via Meituan, identified 6 benchmark cases, and conducted Excel-based ticket price and sales analysis to provide recommendations on ticket types, pricing, and operations for Taimu Lake Brook IP Parent-Child Non-Powered Amusement Park
-Report Proofreading: Proofread and reviewed visual content for the Shanghai Annual Tourism Development Report (2023), correcting 15 errors in the 110-page report to ensure quality before publication
-Event Planning: Developed implementation plans for large-scale events, such as the "China Railway Tourism CEO Gala", and created a PowerPoint presentation used directly by mentor for senior executive reporting in a state-owned enterprise
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Esther080310&label=Profile views&color=0e75b6&style=flat" alt="Esther080310" /> </p>
 
-Project Experience                                                                                            
-"AIGC-Enhanced Automotive Sales Communication: Interaction-Driven Conversion Rate Improvement"
-Top 50 and Finalist, Deloitte Digital Elite Challenge (China)			 					   	   	   Jun 2024
-Project Overview: Analyzed profitability challenges for car dealerships, identifying low customer satisfaction in sales services as a key issue; developed an AIGC (AI-Generated Content) solution to optimize sales communication and validated its feasibility
-Market Research: Sourced data from authoritative reports such as McKinsey, uncovering pain points like outdated customer lead management tools and fragmented multi-channel communication
-Solution Design: Developed an AIGC-powered customer acquisition and management strategy, gathered supporting data, crafted a narrative to illustrate impact, and received commendation from mentors during the presentation
-Financial Modeling: Compiled cost and revenue metrics from sources like Amazon Web Services, concluding that a 40% utilization rate would validate the solution's high commercial value (CBR)
+- 🔭 I'm currently working on **[One-Stop-Resume-Copilot]— An end-to-end AI Agent pipeline for job seekers to automatically tailor resumes and generate mock QnAs based on JDs.**
 
-"Production Decision Optimization Model Based on Sampling Inspection and Dynamic Programming"
-China Undergraduate Mathematical Contest in Modeling (CUMCM)									Sep 2024
-Project Overview: Developed a decision-making model for maximizing profits in electronics manufacturing, focusing on whether to inspect and dismantle components and finished products
-Mathematical Modeling: Established a Dynamic Programming Model to minimize total costs by optimizing decision paths across single and multi-stage processes with multiple components; incorporated a Bayesian Updating Model to adjust defect rate estimates under uncertain production conditions dynamically
-Model Significance: Demonstrated high adaptability and flexibility, enabling companies to make optimal decisions that balance quality control and cost minimization in complex production scenarios
+- 🌱 I'm currently learning **ML,DL,LLM Agent architectures and prompt engineering best practices.**
 
-Forage | BCG Data Science & Analytics Virtual Experience Program							    	Oct 2024
-Data Analysis: Utilized Python libraries (Pandas and NumPy) and feature engineering to process data, investigating whether price sensitivity is the primary factor contributing to customer churn
-Data Modeling: Engineered and optimized a random forest model, generated feature importance charts, achieving an 85% accuracy rate in predicting customer churn
+- 👯 I'm looking to collaborate on **Open-source AI tools, workflow automation scripts, and anything that bridges the gap between complex algorithms and user-friendly products.**
 
-"Wang Yi's Magical Stationery Cabinet" Second Place, National Brand Strategy Competition Nov 2023 - May 2024
-Project Overview: Developed a strategy to boost online sales for "Wang Yi's Lab," a brand specializing in study management journals, by integrating academic insights with business practices
-Corporate Collaboration: Initiated collaboration with the brand founder, Wang Yi, by engaging as a consumer and fan; conducted and compiled an interview with the founder for deeper insights
-Competitive Analysis: Leveraged web-scraped data to perform a comparative analysis of competing original stationery brands, identifying strengths and weaknesses to refine the client's product positioning
+- 🤝 I'm looking for help with **Exploring new use cases for Agentic Workflows in content creation and productivity.**
 
-Xiaohongshu Content Creator, ID: reliableXinxin										   Aug 2023 – Present
-Results: Generated two viral posts with over 10,000 views each; accumulated 1,000+ followers and directed 100+ users to private channels, establishing a paid knowledge-sharing model that generated over ¥50,000 in the first year
-User Analysis: Identified key pain points among parents and students, including academic pressure, performance bottlenecks, and mental health challenges; built a “Top Student Mentor” brand image to provide personalized, paid consulting services
-User Engagement: Leveraged personal experiences at a prestigious Shanghai university to create content focused on study strategies and motivational insights, effectively increasing followers and driving traffic to private channels
+- 💬 Ask me about **Data Engineering,how to leverage AI to optimize your daily workflow.**
 
-Campus Experience                                                                                    
-Head of the outstanding first-phase thematic social project of East China Normal University,2024
-Secretary of Youth League Branch, Statistics 2401, School of Statistics&Business Administration 2301, School of Economics and Management, promptly communicated various notices from the higher-level League organization and cooperated with the class committee to organize 5 League activities
+- 📫 How to reach me **Drop me an email or find me on Xiaohongshu or gzh (欣欣成长日记).**
 
-Professional Skills                                                                                            
-Data Analysis: Proficient in Python, SPSS, capable of analyzing and visualizing data
-Office Software: Proficient in Excel, Word, PPT, Premiere Pro
-English Proficiency: Intermediate Translation Certificate(2017), TOEFL Junior Score 895/900(2018), First Prize in the District Preliminary Round of 2021 Shanghai "Future Orator" English Speech Competition (2021), Excellent in International Talent English Test (Intermediate)(2023), full marks in Advanced General Academic English Reading and Writing
+- ⚡ Fun fact **I believe that in the future, *“more humans will transition from executors to control engineers designing specifications and validation systems. Dancing with AI is the ultimate solution.”***
 
-<!--
-**Esther080310/Esther080310** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 📝 I regularly write articles on **[https://mp.weixin.qq.com/s/7AEbdGEgdaqoCmA7r0H7aw](https://mp.weixin.qq.com/s/7AEbdGEgdaqoCmA7r0H7aw)**
 
-Here are some ideas to get you started:
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://github.com/Esther080310" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Esther080310" height="30" width="40" /></a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/anaconda" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=anaconda" alt="anaconda" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/django" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=django" alt="django" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/figma" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=figma" alt="figma" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/flask" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flask" alt="flask" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/hive" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/apachehive/FDEE21" alt="hive" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/huggingface" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/huggingface" alt="huggingface" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/jupyter" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/langchain" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="langchain" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/matplotlib" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/numpy" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/ollama" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/ollama" alt="ollama" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/oracle" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pandas" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/photoshop" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=photoshop" alt="photoshop" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pytorch" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pytorch" alt="pytorch" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/scikit_learn" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=scikitlearn" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/seaborn" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/sqlite" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=sqlite" alt="sqlite" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tensorflow" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tensorflow" alt="tensorflow" width="40" height="40"/> </a></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Esther080310&" alt="Esther080310" /></p>
+
