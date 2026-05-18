@@ -1,4 +1,4 @@
-# Hi 👋, I'm Yan Shen
+# Hi 👋, I'm Esther Shen
 
 ### A Statistic freshman
 
